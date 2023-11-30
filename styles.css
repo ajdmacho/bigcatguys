@@ -13,16 +13,18 @@ body {
 header {
   border-radius: 5px;
   display: flex;
+  margin: 0;
 }
 
 nav {
   background-color: #e3e3db;
-  line-height: 3em;
-  text-align: center;
+  line-height: 2em;
   font-size: 1.2em;
   font-family: 'Playpen Sans', cursive;
   list-style-type: none;
-  
+  display: flex;
+  align-items: center;
+  justify-content: start;
 }
 
 
@@ -32,8 +34,11 @@ nav a {
   text-decoration: none;
   padding: 10px;
   color: black;
-  justify-items: center;
-  align-items: center;
+  text-align: center;
+  
+}
+nav a #logolink {
+  max-width: 400px 200px;
 }
 nav a:link, nav a:visited {
   color: black;
@@ -42,11 +47,11 @@ nav a:hover {
   color: #d1918c;
 }
 nav img {
-  max-width: 25%;
-  padding: 1em;
+  max-width: 35%;
   transition: .7s;
   padding:1em;
   grid-column: 1/2;
+  padding: 0;
   
 
 }
